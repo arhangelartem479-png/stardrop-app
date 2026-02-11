@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.case img {
+    width: 200px;
+    transition: transform 0.5s;
+}
+
+.case img.spin {
+    transform: rotate(720deg);
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: gold;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 20px;
+}
