@@ -1,32 +1,27 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #1e1e3f, #2c2c54);
+    font-family: Arial;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
     color: white;
     text-align: center;
 }
 
 .container {
-    padding: 30px;
-}
-
-h1 {
-    font-size: 28px;
-    margin-bottom: 30px;
+    padding: 20px;
 }
 
 .case {
     background: rgba(255,255,255,0.05);
-    padding: 25px;
+    padding: 20px;
     border-radius: 20px;
-    width: 280px;
-    margin: auto;
-    box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 0 25px rgba(255,215,0,0.3);
 }
 
 .case img {
     width: 150px;
-    transition: transform 1s ease;
+    transition: transform 1s;
 }
 
 .spin {
@@ -34,22 +29,30 @@ h1 {
 }
 
 button {
-    margin-top: 20px;
-    padding: 14px 25px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     background: gold;
-    font-weight: bold;
+    margin: 5px;
     cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background: orange;
-}
-
-#result {
-    margin-top: 30px;
-    font-size: 18px;
     font-weight: bold;
+}
+
+.demo {
+    background: gray;
+    color: white;
+}
+
+.inventory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inventory-item {
+    background: rgba(255,255,255,0.05);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
 }
